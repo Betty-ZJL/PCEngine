@@ -1,0 +1,27 @@
+.title{
+    color: rgb(17, 17, 11);
+    width: 200px;
+    font-size : 20pt;
+    font-weight: bold;
+}
+
+.choose{
+	width:150px;
+	font-size : 15pt;
+	font-weight: bold;
+}
+
+.word{
+	font-size : 13pt;
+	font-weight: bold;
+}
+
+.footer{
+    color: rgb(243, 243, 235);
+    font-size : 11pt;
+    width: 500px;
+    margin-top: 10px;
+    font-family:FZShuTi;
+}
+
+
