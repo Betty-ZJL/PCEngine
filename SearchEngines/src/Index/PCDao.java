@@ -17,7 +17,7 @@ public class PCDao {
 		List pcList = new ArrayList();
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/pcdb", "root", "root");
+			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost/pc", "root", "root");
 			PreparedStatement pStat = conn.prepareStatement("select * from pcss");
 			ResultSet result = pStat.executeQuery();
 			PC pc;

@@ -51,7 +51,7 @@ public class complexSearch {
 			String[] type, String[] xiancun, String minprice, String maxprice)
 			throws ParseException, IOException, InvalidTokenOffsetsException {
 		IndexReader reader = DirectoryReader.open(FSDirectory.open(new File(
-				"E:\\SuperSearch")));
+				"/Users/zjl/Desktop/PCEngine/pcIndex")));
 		IndexSearcher searcher = new IndexSearcher(reader);
 		Version version = Version.LUCENE_47;
 		Analyzer analyzer = new StandardAnalyzer(version);

@@ -39,7 +39,7 @@ public class simpleSearch {
 			InvalidTokenOffsetsException {
 
 		IndexReader reader = DirectoryReader.open(FSDirectory.open(new File(
-				"E:\\SuperSearch")));
+				"/Users/zjl/Desktop/PCEngine/pcIndex")));
 		IndexSearcher searcher = new IndexSearcher(reader);
 		Version version = Version.LUCENE_47;
 		Analyzer analyzer = new StandardAnalyzer(version);

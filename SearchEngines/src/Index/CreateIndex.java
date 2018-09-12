@@ -26,7 +26,7 @@ public class CreateIndex {
 		Iterator iter = pcList.iterator();
 		PC pc;
 		try {
-			File indexDir = new File("E:\\SuperSearch");
+			File indexDir = new File("/Users/zjl/Desktop/PCEngine/pcIndex");
 			Directory dir = new SimpleFSDirectory(indexDir);
 			Version version = Version.LUCENE_47;
 			Analyzer analyzer = new StandardAnalyzer(version);  
