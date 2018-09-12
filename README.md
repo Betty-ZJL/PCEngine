@@ -18,9 +18,9 @@
 - myeclipse
 
 ### 测试步骤
-1.打开myeclipse，载入项目 ```SearchEngines``` 
-2.本地发布，打开tomcat
-3.主页：simple.jsp
+1. 打开myeclipse，载入项目 ```SearchEngines``` 
+2. 本地发布，打开tomcat
+3. 主页：simple.jsp
 
 ### 注意
 - 如果要创建**新的索引包路径**
